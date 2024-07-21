@@ -1,0 +1,24 @@
+:root{
+    --primary: #000000;
+    --text-white: #ffffff;
+
+    /*1rem == 10px*/
+    --font-size: 62.5%;
+
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary);
+    color: var(--text-white);
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
